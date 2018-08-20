@@ -26,6 +26,7 @@ Utilises O/S specific methods to ensure sssd is utilised by the system.
 
 Tested with:
 * CentOS 7
+* openSUSE Leap 15.0
 * Ubuntu LTS 16.04
 * Debian Stretch 9.4
 
