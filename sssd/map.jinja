@@ -12,6 +12,17 @@
         'ca_certs_dir': '/etc/sssd/certs',
       },
     },
+    'Suse': {
+      'pkgs': [ 'sssd', 'sssd-krb5-common', 'sssd-client' ],
+      'user': 'root',
+      'group': 'root',
+      'service': 'sssd',
+      'locations': {
+        'config_file': '/etc/sssd/sssd.conf',
+        'conf_d_dir': '/etc/sssd/conf.d',
+        'ca_certs_dir': '/etc/sssd/certs',
+      },
+    },
     'Debian': {
       'pkgs': [ 'sssd' ],
       'user': 'root',
